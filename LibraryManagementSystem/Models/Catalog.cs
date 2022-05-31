@@ -11,7 +11,6 @@ namespace LibraryManagementSystem.Models
     public Dictionary<string, List<Book>> BookAuthors;
     public Dictionary<string, List<Book>> BookSubjects;
     public Dictionary<DateTime, List<Book>> BookPublicationDates;
-
     public List<Book> SearchByAuthor(string author)
     {
       throw new NotImplementedException();

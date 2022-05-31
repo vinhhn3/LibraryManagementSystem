@@ -12,12 +12,10 @@ namespace LibraryManagementSystem.Models
     public string Language;
     public int NumberOfPages;
     public List<Author> Authors;
-
     protected Book() { }
-
-    protected Book(string iSBN, string title, string subject, string publisher, string language, int numberOfPages)
+    protected Book(string isbn, string title, string subject, string publisher, string language, int numberOfPages)
     {
-      ISBN = iSBN;
+      ISBN = isbn;
       Title = title;
       Subject = subject;
       Publisher = publisher;
